@@ -1,0 +1,51 @@
+root@irbef:~# certbot --apache -d fnlqxz.my.id -d www.fnlqxz.my.id
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Enter email address (used for urgent renewal and security notices)
+ (Enter 'c' to cancel): vmvm1071@gmail.com
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Please read the Terms of Service at
+https://letsencrypt.org/documents/LE-SA-v1.3-September-21-2022.pdf. You must
+agree in order to register with the ACME server. Do you agree?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(Y)es/(N)o: Y
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Would you be willing, once your first certificate is successfully issued, to
+share your email address with the Electronic Frontier Foundation, a founding
+partner of the Let's Encrypt project and the non-profit organization that
+develops Certbot? We'd like to send you email about our work encrypting the web,
+EFF news, campaigns, and ways to support digital freedom.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(Y)es/(N)o: Y
+Account registered.
+Requesting a certificate for fnlqxz.my.id and www.fnlqxz.my.id
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/fnlqxz.my.id/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/fnlqxz.my.id/privkey.pem
+This certificate expires on 2023-11-17.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+Successfully deployed certificate for fnlqxz.my.id to /etc/apache2/sites-available/000-default-le-ssl.conf
+
+We were unable to find a vhost with a ServerName or Address of www.fnlqxz.my.id.
+Which virtual host would you like to choose?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: 000-default.conf               |                       |       | Enabled
+2: 000-default.conf               | 103.84.207.207        |       | Enabled
+3: 000-default.conf               | fnlqxz.my.id          |       | Enabled
+4: 000-default-le-ssl.conf        | fnlqxz.my.id          | HTTPS | Enabled
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate number [1-4] then [enter] (press 'c' to cancel): 4
+Successfully deployed certificate for www.fnlqxz.my.id to /etc/apache2/sites-available/000-default-le-ssl.conf
+Congratulations! You have successfully enabled HTTPS on https://fnlqxz.my.id and https://www.fnlqxz.my.id
+We were unable to subscribe you the EFF mailing list because your e-mail address appears to be invalid. You can try again later by visiting https://act.eff.org.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
