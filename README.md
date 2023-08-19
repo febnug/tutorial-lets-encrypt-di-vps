@@ -17,6 +17,7 @@
 
 <ol>
   <li>ketik perintah <code>certbot --apache -d nama_domain -d www.nama_domain</code></li>
-  <li>nanti kurang lebih tampilannya akan seperti pada <a href="https://www.rumahweb.com/journal/wp-content/uploads/2021/09/image-109.png">gambar 1</a> selanjutnya pada <a href="https://www.rumahweb.com/journal/wp-content/uploads/2021/09/image-110-1024x236.png">gambar 2</a></li>
+<!--  <li>nanti kurang lebih tampilannya akan seperti pada <a href="https://www.rumahweb.com/journal/wp-content/uploads/2021/09/image-109.png">gambar 1</a> selanjutnya pada <a href="https://www.rumahweb.com/journal/wp-content/uploads/2021/09/image-110-1024x236.png">gambar 2</a></li>
   <li>coba akses domain kamu dan voila! akan muncul icon gembok di samping kiri nama domain kamu</li>
-</ol>
+</ol> -->
+<li>cek disini pilihan-pilihannya</li>
