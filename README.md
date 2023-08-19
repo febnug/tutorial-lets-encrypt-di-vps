@@ -8,7 +8,7 @@
 <ol>
   <li>update VPSnya dulu, ketik <code>apt-get update</code></li>
   <li>install web server, disini saya pake apache2 ketik <code>apt-get install apache2</code></li>
-  <li>install <b>certbot</b>, ketik <code>apt-get install python3-certbot-apache</code></li>
+  <li>install <b>certbot</b>, ketik <code>apt-get install certbot python3-certbot-apache</code></li>
   <li>konfigurasi sertifikat SSL, buat sendiri file <code>nama_domain/ip_public_vps.conf</code> di folder <code>/etc/apache2/sites-available</code>, (<a href="https://raw.githubusercontent.com/febnug/tutorial-lets-encrypt-di-vps/main/febnug.cloud.conf">filenya ini</a>)
   </li>
 </ol>
